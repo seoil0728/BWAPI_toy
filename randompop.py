@@ -1,25 +1,15 @@
 import random
 
-ls = []
-
-while True:
-    answer = input('Type : ')
-    if answer == '':
-        break
-    else:
-        ls.append(answer)
-
-# random.shuffle(ls)
-# random.shuffle(ls)
-# random.shuffle(ls)
-# random.shuffle(ls)
-#
-# print()
-# for i in ls:
-#     print(i)
-#
+def choose_random(team):
+    random.shuffle(team)
+    random.shuffle(team)
+    return team[0]
 
 
-a = random.randint(0, len(ls))
+def main():
+    team = ["Stardust", "Volas", "Monster", "adias"]
+    print(choose_random(team))
 
-print(ls[a])
+
+if __name__ == '__main__':
+    main()

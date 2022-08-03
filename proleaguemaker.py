@@ -1,20 +1,25 @@
 import random
 
-team1 = []
-team2 = []
+def make_team(num_member):
+    team1 = []
+    team2 = []
 
-while True:
-    answer = input('Type User Name (if finished, just enter) : ')
-    if answer == '':
-        break
-    else:
-        team1.append(answer)
+    for i in range(num_member):
+        member = input('Type Member : ')
+        team1.append(member)
 
-random.shuffle(team1)
-a = int(len(team1)/2)
+    random.shuffle(team1)
 
-for i in range(a):
-    team2.append(team1.pop())
+    for i in range(int(num_member / 2)):
+        team2.append(team1.pop())
 
-print(team1)
-print(team2)
+    return team1, team2
+
+def main():
+    team1 , team2 = make_team(8)
+    print(team1)
+    print(team2)
+
+
+if __name__ == '__main__':
+    main()
