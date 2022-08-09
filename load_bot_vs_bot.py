@@ -1,6 +1,8 @@
 import random
 player_list = []
-map_list = ['Benzene', 'Destination', 'Heartbreak Ridge', 'Neo Moon Glave', 'Tau Cross', 'Andromeda', 'Circuit Breaker', 'Electric Circuit', 'Empire of the Sun', 'Fighting Spirit', 'Icarus', 'Jade', 'La Mancha', 'Python', 'Road Runner']
+map_list = ['Benzene', 'Destination', 'Heartbreak Ridge', 'Neo Moon Glave', 'Tau Cross', 'Andromeda',
+            'Circuit Breaker', 'Electric Circuit', 'Empire of the Sun', 'Fighting Spirit', 'Icarus', 'Jade',
+            'La Mancha', 'Python', 'Road Runner']
 
 with open('./mmr.txt', 'r') as f:
     c = f.read()

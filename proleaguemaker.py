@@ -1,5 +1,6 @@
 import random
 
+
 def make_team(num_member):
     team1 = []
     team2 = []
@@ -14,6 +15,7 @@ def make_team(num_member):
         team2.append(team1.pop())
 
     return team1, team2
+
 
 def main():
     team1 , team2 = make_team(8)

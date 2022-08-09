@@ -2,6 +2,7 @@ import proleaguemaker
 import randompop
 import copy
 
+
 def main():
     team1 = []
     team2 = []

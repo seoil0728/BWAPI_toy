@@ -42,8 +42,8 @@ CUBOT
 MadMixT
 Crona
 Lukas Moravec
-insanitybot
-Fifou Legend
+ICELab
+Tomas Cere
 Simplicity
 Proxy
 StyxZ
@@ -54,9 +54,11 @@ MadMixR
 Dave Churchill
 WuliBot
 Velicorandom
-Volas
-adias
 Pathos
 Zerg Hell
 Andrew Smith
 MegaBot2017
+DaQin
+BananaBrain
+Bereaver
+Sijia Xu

@@ -1,5 +1,6 @@
 import random
 
+
 def choose_random(team):
     random.shuffle(team)
     random.shuffle(team)

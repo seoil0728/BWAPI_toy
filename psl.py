@@ -1,4 +1,5 @@
 import random
+import psl_adding_directory
 
 player_list = []
 
@@ -23,11 +24,13 @@ if len(player_list) % 4 != 0:
 
 random.shuffle(player_list)
 
-temp = []
+draws = []
+
 for i in range(len(player_list)//2):
+    temp = []
     temp.append(player_list.pop())
     temp.append(player_list.pop())
+    draws.append(temp)
     print(temp)
-    temp.clear()
 
-
+psl_adding_directory.pushing(draws)
