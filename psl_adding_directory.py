@@ -8,14 +8,34 @@ def pushing(player_list):
     os.chdir("draws")
 
     for i in range(len(player_list)):
-        if i < 10:
+        if i < 9:
             os.mkdir("0{} - {} vs {}".format(i + 1, player_list[i][0], player_list[i][1]))
         else:
             os.mkdir("{} - {} vs {}".format(i + 1, player_list[i][0], player_list[i][1]))
 
 
+def make_draws():
+    draws = []
+    temp = []
+
+    while True:
+        plays = input('Add Player Name (if quit, Just Enter) : ')
+        if plays == '':
+            break
+        else:
+            temp.append(plays)
+
+    for i in range(len(temp) // 2):
+        dd = []
+        dd.append(temp.pop(0))
+        dd.append(temp.pop(0))
+        draws.append(dd)
+
+    return draws
+
+
 def main():
-    plist = [["Volas", "Stardust"], ["Test", "Test2"]]
+    plist = make_draws()
     pushing(plist)
 
 
