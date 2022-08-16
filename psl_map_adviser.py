@@ -5,7 +5,7 @@ def map_advice(map_list):
     print('RO16 Map Adviser :', random.sample(map_list, 3))
     print('RO8 Map Adviser :', random.sample(map_list, 5))
     print('Semi-Final Map Adviser :', random.sample(map_list, 5))
-    print('Final Map Adviser :', random.sample(map_list, 5))
+    print('Final Map Adviser :', random.sample(map_list, 7))
 
 
 def main():
