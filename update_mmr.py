@@ -4,7 +4,7 @@ import calculate_mmr
 def write_file(player_list):
     with open('./mmr.txt', 'w') as f:
         for i in player_list:
-            line = i[0] + ' ' + i[1] + '\n'
+            line = i[0] + '&' + i[1] + '\n'
             f.write(line)
 
 
@@ -17,7 +17,7 @@ def load_players():
             if not line:
                 break
             line = line.strip()
-            line = line.split(' ')
+            line = line.split('&')
             players.append(line)
 
     return players

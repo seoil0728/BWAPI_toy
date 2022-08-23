@@ -5,6 +5,6 @@ with open('./mmr.txt', 'a') as f:
         if user == '':
             break
         else:
-            f.write(user + ' ' + '2000\n')
+            f.write(user + '&' + '2000\n')
 
 

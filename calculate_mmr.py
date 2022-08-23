@@ -63,7 +63,7 @@ def main():
             if not line:
                 break
             line = line.strip()
-            line = line.split(' ')
+            line = line.split('&')
             player_list.append(line)
 
     order = input('1. by Name, 2. by mmr : ')
@@ -83,7 +83,6 @@ def main():
 
         mmr = 100
         weight = mmr_calculate(a, b)
-
         print_mmr(mmr, weight)
 
 

@@ -12,7 +12,7 @@ with open('./mmr.txt', 'r') as f:
         if i == '':
             pass
         else:
-            player_list.append(i)
+            player_list.append(i.replace('&', ' '))
 
 a = random.randrange(len(player_list))
 b = random.randrange(len(player_list))
