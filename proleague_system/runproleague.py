@@ -1,6 +1,7 @@
 import proleaguemaker
 import randompop
 import copy
+import random
 
 
 def main():
@@ -14,6 +15,11 @@ def main():
     team1, team2 = proleaguemaker.make_team(num_member)
     print('Team 1 :', team1)
     print('Team 2 :', team2)
+
+    selection = input('If you want to shuffle team sequence, Type 1 : ')
+    if selection == '1':
+        random.shuffle(team1)
+        random.shuffle(team2)
 
     print()
 
