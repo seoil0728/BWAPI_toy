@@ -1,6 +1,8 @@
 import os
 import shutil
 from distutils.dir_util import copy_tree
+import RPArunchaos
+import RPArunbot
 
 
 def remove_files():
@@ -21,6 +23,7 @@ def find_directory():
 
 
 def main():
+    original_cwd = os.getcwd()
     # delete past bwapi files in bwapi-data/AI
     os.chdir("C:/Starcraft/bwapi-data/AI")
     remove_files()
@@ -78,6 +81,12 @@ def main():
             print('Process Success!')
         except Exception as e:
             print(e)
+
+        auto_start = input('If you want to start Starcraft Automatically, Type 1 : ')
+        if auto_start == '1':
+            os.chdir(original_cwd)
+            RPArunchaos.main()
+            RPArunbot.detect_bot(directories)
 
 
 if __name__ == '__main__':

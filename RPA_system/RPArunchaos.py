@@ -1,16 +1,39 @@
-import pyautogui
-import os
+from pywinauto import application
+import pywinauto
 
 
-img_capture = pyautogui.locateOnScreen("chaos.jpg", confidence=0.7)
-print(img_capture)
+def run_chaos():
+    chaos = 'C:/Libraries/BWAPI/Chaoslauncher/Chaoslauncher - MultiInstance.exe'
+    app = application.Application(backend='uia')
+    app.start(chaos)
 
-print(list(img_capture))
-paths = list(img_capture)
 
-pyautogui.moveTo(paths[0] + 45, paths[1] + 360)
-pyautogui.sleep(1)
-pyautogui.mouseDown()
-pyautogui.sleep(0.5)
-pyautogui.mouseUp()
+def check_run_chaos():
+    processes = pywinauto.findwindows.find_elements()
+    for proc in processes:
+        if proc.name == 'Chaoslauncher':
+            print('Chaos Launcher is already running.')
+            return True
+    return False
 
+
+def run_starcraft_from_chaos():
+    app = application.Application(backend='uia')
+    processes = pywinauto.findwindows.find_elements()
+    for proc in processes:
+        if proc.name == 'Chaoslauncher':
+            app.connect(process=proc.process_id)
+
+    dialog = app.window()
+    dialog['StartButton'].click()
+
+
+def main():
+    if not check_run_chaos():
+        run_chaos()
+
+    run_starcraft_from_chaos()
+
+
+if __name__ == '__main__':
+    main()
