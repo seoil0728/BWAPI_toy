@@ -8,16 +8,19 @@ def check_pro():
     checker3 = Counter()
 
     progamers[1] = [['adias', 'Monster', 'Volas', 'BananaBrain', 'krasi0', 'Dragon', 'Stardust', 'Crona'],
-                        ['Proxy', 'DaQin', 'Iron bot', 'Locutus', 'McRave', 'Microwave', 'WillyT', 'PurpleWave']]
+                    ['Proxy', 'DaQin', 'Iron bot', 'Locutus', 'McRave', 'Microwave', 'WillyT', 'PurpleWave']]
 
     progamers[2] = [['Volas', 'adias', 'Stardust', 'BananaBrain', 'ZNZZBot', 'Monster', 'Halo', 'Iron bot'],
-                        ['Microwave', 'Killerbot', 'krasi0P', 'WillyT', 'Hao Pan', 'DaQin', 'LetaBot', 'legacy']]
+                    ['Microwave', 'Killerbot', 'krasi0P', 'WillyT', 'Hao Pan', 'DaQin', 'LetaBot', 'legacy']]
 
     progamers[3] = [['Stardust', 'DaQin', 'Monster', 'BananaBrain', 'Hao Pan', 'ZNZZBot', 'BetaStar', 'Brainiac'],
-                        ['Chris Coxe', 'adias', 'Dragon', 'krasi0', 'WuliBot', 'McRaveZ', 'PurpleWave', 'krasi0P']]
+                    ['Chris Coxe', 'adias', 'Dragon', 'krasi0', 'WuliBot', 'McRaveZ', 'PurpleWave', 'krasi0P']]
 
     progamers[4] = [['Volas', 'Stardust', 'adias', 'Monster', 'Killerbot', 'BananaBrain', 'DaQin', 'XIAOYICOG2019'],
-                        ['Zia bot', 'NLPRbot', 'ZNZZBot', 'Iron bot', 'Brainiac', 'Crona', 'legacy', 'Dave Churchill']]
+                    ['Zia bot', 'NLPRbot', 'ZNZZBot', 'Iron bot', 'Brainiac', 'Crona', 'legacy', 'Dave Churchill']]
+
+    progamers[5] = [['Volas', 'Monster', 'Stardust', 'Brainiac', 'adias', 'BananaBrain', 'Dragon', 'krasi0'],
+                    ['Killerbot', 'Halo', 'ZNZZBot', 'Iron bot', 'WillyT', 'NiteKatT', 'skyFORKnet', 'BetaStar']]
 
     checker1 = progamers[len(progamers)][0]
     checker2 = progamers[len(progamers) - 1][0]

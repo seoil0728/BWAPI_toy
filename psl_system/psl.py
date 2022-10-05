@@ -1,6 +1,6 @@
 import random
 import psl_adding_directory
-import psl_16_round_maker
+import psl_round_maker
 import psl_map_adviser
 import psl_check_pro_title
 
@@ -47,7 +47,7 @@ def main():
     print('========== Welcome to the Personal Star-League! ==========')
     print('********************** Command List **********************')
     print('1 : Make Pre-League list (need to update submit_bots.txt)')
-    print('2 : Make RO16 List')
+    print('2 : Make Round List')
     print('3 : Make Draws Directories (01 - A vs B Format)')
     print('4 : PSL Map Adviser (RO16, RO8, Semi-Final, Final')
     print('5 : PSL Pro-gamer List (3-Season update)')
@@ -58,7 +58,18 @@ def main():
     if command == '1':
         make_pre_league()
     elif command == '2':
-        psl_16_round_maker.make_16_round()
+        print('1: Make 16 Round.')
+        print('2: Make 8 Round.')
+        print('3: Make 4 Round.')
+        command = input('What do you want to do? : ')
+        if command == '1':
+            psl_round_maker.make_16_round()
+        elif command == '2':
+            psl_round_maker.make_8_round()
+        elif command == '3':
+            psl_round_maker.make_4_round()
+        else:
+            print('Invalid Command.')
     elif command == '3':
         p_list = psl_adding_directory.make_draws()
         psl_adding_directory.pushing(p_list)
