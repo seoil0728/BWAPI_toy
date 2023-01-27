@@ -12,10 +12,12 @@ def detect_bot(bot_name):
     for i in exe_bot:
         if i in bot_name:
             run_bat(i)
+            return
 
     for i in jar_bot:
         if i in bot_name:
             run_jar()
+            return
 
 
 def run_jar():
