@@ -1,8 +1,8 @@
-adias&2263
+adias&2193
 AILien&2296
-Arrakhammer&1797
-BananaBrain&2222
-Crona&1750
+Arrakhammer&1658
+BananaBrain&2148
+Crona&1680
 BetaStar&2092
 CherryPiSSCAIT2017&2004
 Chris Coxe&2254
@@ -12,45 +12,103 @@ Dragon&2120
 Feint&2073
 Fifou Legend&1727
 Fresh Meat&1955
-Halo&1981
-Hannes Bredberg&1864
-Hao Pan&2022
-insanitybot&1741
+Halo&2084
+Hannes Bredberg&1982
+Hao Pan&2095
+insanitybot&1717
 Iron bot&2116
-KillAlll&1809
-Killerbot&2187
-krasi0&2192
+KillAlll&1716
+Killerbot&2409
+krasi0&2079
 krasi0P&1908
 legacy&1979
-LetaBot&2700
+LetaBot&2504
 Locutus&1991
-Lukas Moravec&1743
+Lukas Moravec&1742
 MadMixP&1803
 MadMixT&1763
-MadMixZ&1910
-McRave&1847
-McRaveZ&1834
-Microwave&2020
-Monster&2280
-Newbie Zerg&2263
-NiteKatP&1843
+MadMixZ&1828
+McRave&1940
+McRaveZ&1871
+Microwave&2174
+Monster&2324
+Newbie Zerg&2264
+NiteKatP&1922
 NiteKatT&1990
 NLPRbot&2101
 Prism Cactus&2119
-Proxy&1719
-PurpleWave&1844
-Randomhammer&1954
+Proxy&1875
+PurpleWave&2147
+Randomhammer&1768
 Simplicity&1687
 skyFORKnet&2191
-Stardust&2505
-Steamhammer&1738
+Stardust&2453
+Steamhammer&1737
 StyxZ&1700
 tscmoo&1917
 TyrProtoss&1844
 UITtest&1880
-WillyT&1791
-XIAOYICOG2019&2336
+WillyT&1769
+XIAOYICOG2019&2196
 Zia bot&1812
-ZNZZBot&1966
+ZNZZBot&2193
 Volas&2716
-Bereaver&2000
+Bereaver&2007
+ABCDxyz&1903
+Andrew Smith&2100
+Terminus&1845
+Brainiac&2116
+Boris&2000
+cpac&2000
+CSE&2166
+Dave Churchill&2000
+Delingvery&2000
+DTD Bot&2000
+Ecgberht&2000
+EggBot&2000
+Flash&2000
+Florian Richoux&2000
+ForceBot&2000
+Hopark&1916
+ICELab&2000
+Infested Artosis&2000
+JJJJJ&2000
+Junkbot&2068
+KangarooBot&2000
+KaonBot&2000
+KasoBot&2000
+Marine Hell&2100
+Martin Rooijackers&2000
+Matej Kravjar&2000
+MegaBot2017&2000
+MicRobot&2000
+NuiBot&2000
+Overkill&2000
+Pathos&2000
+Pineapple Cactus&2000
+Pinfel 2&2000
+RedRum&2000
+SAIDA&2000
+Sijia Xu&2000
+Skynet&2000
+Slater&2000
+Soeren Klett&1900
+StarCrusher&1897
+Stone&2000
+StyxZ2&2000
+Sune Rasmussen&2000
+Sungguk Cha&2000
+Tomas Cere&2000
+Tomas Vajda&2000
+Trident&1843
+tscmooz&1900
+tscmoop&2060
+tscmoor&1832
+Velicorandom&2100
+WillBot&2000
+WuliBot&2000
+Xelnaga&2000
+Yuanheng Zhu&1900
+Zealot Hell&2000
+Zerg Hell&2000
+ZurZurZur&2000
