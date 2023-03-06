@@ -1,16 +1,16 @@
 adias&2193
-AILien&2296
+AILien&2185
 Arrakhammer&1658
 BananaBrain&2148
-Crona&1680
+Crona&1844
 BetaStar&2092
-CherryPiSSCAIT2017&2004
-Chris Coxe&2254
+CherryPiSSCAIT2017&1972
+Chris Coxe&2358
 CUBOT&1780
 DaQin&2098
 Dragon&2120
 Feint&2073
-Fifou Legend&1727
+Fifou Legend&1726
 Fresh Meat&1955
 Halo&2084
 Hannes Bredberg&1982
@@ -18,21 +18,21 @@ Hao Pan&2095
 insanitybot&1717
 Iron bot&2116
 KillAlll&1716
-Killerbot&2409
+Killerbot&2352
 krasi0&2079
 krasi0P&1908
 legacy&1979
-LetaBot&2504
-Locutus&1991
+LetaBot&2298
+Locutus&2092
 Lukas Moravec&1742
-MadMixP&1803
-MadMixT&1763
+MadMixP&1802
+MadMixT&1925
 MadMixZ&1828
 McRave&1940
 McRaveZ&1871
-Microwave&2174
-Monster&2324
-Newbie Zerg&2264
+Microwave&1911
+Monster&2460
+Newbie Zerg&2116
 NiteKatP&1922
 NiteKatT&1990
 NLPRbot&2101
@@ -42,51 +42,51 @@ PurpleWave&2147
 Randomhammer&1768
 Simplicity&1687
 skyFORKnet&2191
-Stardust&2453
+Stardust&2607
 Steamhammer&1737
 StyxZ&1700
 tscmoo&1917
 TyrProtoss&1844
 UITtest&1880
 WillyT&1769
-XIAOYICOG2019&2196
+XIAOYICOG2019&2187
 Zia bot&1812
 ZNZZBot&2193
 Volas&2716
 Bereaver&2007
 ABCDxyz&1903
 Andrew Smith&2100
-Terminus&1845
+Terminus&2035
 Brainiac&2116
 Boris&2000
-cpac&2000
-CSE&2166
+cpac&1939
+CSE&2356
 Dave Churchill&2000
-Delingvery&2000
+Delingvery&1921
 DTD Bot&2000
 Ecgberht&2000
-EggBot&2000
+EggBot&1868
 Flash&2000
 Florian Richoux&2000
-ForceBot&2000
+ForceBot&2100
 Hopark&1916
 ICELab&2000
-Infested Artosis&2000
+Infested Artosis&1916
 JJJJJ&2000
-Junkbot&2068
+Junkbot&2135
 KangarooBot&2000
 KaonBot&2000
 KasoBot&2000
 Marine Hell&2100
 Martin Rooijackers&2000
-Matej Kravjar&2000
-MegaBot2017&2000
+Matej Kravjar&1900
+MegaBot2017&2164
 MicRobot&2000
 NuiBot&2000
 Overkill&2000
 Pathos&2000
 Pineapple Cactus&2000
-Pinfel 2&2000
+Pinfel 2&1900
 RedRum&2000
 SAIDA&2000
 Sijia Xu&2000
@@ -94,21 +94,21 @@ Skynet&2000
 Slater&2000
 Soeren Klett&1900
 StarCrusher&1897
-Stone&2000
+Stone&1899
 StyxZ2&2000
 Sune Rasmussen&2000
 Sungguk Cha&2000
 Tomas Cere&2000
-Tomas Vajda&2000
+Tomas Vajda&2100
 Trident&1843
-tscmooz&1900
+tscmooz&1833
 tscmoop&2060
 tscmoor&1832
 Velicorandom&2100
-WillBot&2000
-WuliBot&2000
+WillBot&1900
+WuliBot&2100
 Xelnaga&2000
-Yuanheng Zhu&1900
+Yuanheng Zhu&1820
 Zealot Hell&2000
 Zerg Hell&2000
 ZurZurZur&2000
