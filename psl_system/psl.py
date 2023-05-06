@@ -3,6 +3,7 @@ import psl_adding_directory
 import psl_round_maker
 import psl_map_adviser
 import psl_check_pro_title
+from psl_system import psl_under_league
 
 
 def make_pre_league():
@@ -51,6 +52,7 @@ def main():
     print('3 : Make Draws Directories (01 - A vs B Format)')
     print('4 : PSL Map Adviser (RO16, RO8, Semi-Final, Final')
     print('5 : PSL Pro-gamer List (3-Season update)')
+    print('6 : Make PSL Under League pass')
     print('**********************************************************')
     command = input('What do you want to do? : ')
     print()
@@ -80,6 +82,8 @@ def main():
         psl_map_adviser.map_advice(map_list)
     elif command == '5':
         psl_check_pro_title.check_pro()
+    elif command == '6':
+        psl_under_league.make_under_league()
     else:
         print('Invalid Command!')
 

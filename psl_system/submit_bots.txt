@@ -1,64 +1,64 @@
-LetaBot
-AILien
-Newbie Zerg
-Chris Coxe
-krasi0
-skyFORKnet
-Killerbot
-Randomhammer
-XIAOYICOG2019
-Dragon
-Prism Cactus
-Iron bot
-NLPRbot
-BetaStar
-Feint
-Microwave
-ZNZZBot
-CherryPiSSCAIT2017
-Hao Pan
-Locutus
-PurpleWave
-Halo
-legacy
-Fresh Meat
-tscmoo
-MadMixZ
-krasi0P
-NiteKatT
+KangarooBot
+Boris
+Slater
+Marine Hell
 UITtest
-McRave
-Hannes Bredberg
-TyrProtoss
-NiteKatP
-McRaveZ
-Steamhammer
-Zia bot
-KillAlll
-MadMixP
-Arrakhammer
-WillyT
-CUBOT
-MadMixT
-Crona
-Lukas Moravec
-ICELab
-Tomas Cere
-Simplicity
-Proxy
-StyxZ
+Infested Artosis
+Randomhammer
 Terminus
-tscmoor
-Brainiac
-MadMixR
-Dave Churchill
-WuliBot
-Velicorandom
-Pathos
-Zerg Hell
-Andrew Smith
-MegaBot2017
-DaQin
-BananaBrain
+Flash
 Bereaver
+Tomas Cere
+CSE
+KasoBot
+MadMixZ
+RedRum
+MicRobot
+Simplicity
+Pineapple Cactus
+Newbie Zerg
+WillBot
+Zealot Hell
+Tomas Vajda
+ZurZurZur
+tscmoo
+Delingvery
+Pathos
+Lukas Moravec
 Sijia Xu
+Overkill
+TyrProtoss
+Andrew Smith
+Prism Cactus
+MadMixP
+insanitybot
+Zerg Hell
+adias
+BananaBrain
+Crona
+Dragon
+Proxy
+DaQin
+Iron bot
+Locutus
+McRave
+Microwave
+WillyT
+PurpleWave
+ZNZZBot
+Halo
+Killerbot
+krasi0P
+Hao Pan
+LetaBot
+legacy
+BetaStar
+Chris Coxe
+WuliBot
+McRaveZ
+XIAOYICOG2019
+Zia bot
+NLPRbot
+Dave Churchill
+NiteKatT
+skyFORKnet
