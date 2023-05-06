@@ -1,56 +1,114 @@
-adias&2263
-AILien&2296
-Arrakhammer&1797
-BananaBrain&2222
-Crona&1750
-BetaStar&2092
-CherryPiSSCAIT2017&2004
-Chris Coxe&2254
-CUBOT&1780
-DaQin&2098
-Dragon&2120
-Feint&2073
-Fifou Legend&1727
-Fresh Meat&1955
-Halo&1981
-Hannes Bredberg&1864
-Hao Pan&2022
-insanitybot&1741
-Iron bot&2116
-KillAlll&1809
-Killerbot&2187
-krasi0&2192
-krasi0P&1908
-legacy&1979
-LetaBot&2700
-Locutus&1991
-Lukas Moravec&1743
-MadMixP&1803
-MadMixT&1763
-MadMixZ&1910
-McRave&1847
-McRaveZ&1834
-Microwave&2020
-Monster&2280
-Newbie Zerg&2263
-NiteKatP&1843
-NiteKatT&1990
-NLPRbot&2101
-Prism Cactus&2119
-Proxy&1719
-PurpleWave&1844
-Randomhammer&1954
-Simplicity&1687
-skyFORKnet&2191
-Stardust&2505
-Steamhammer&1738
-StyxZ&1700
-tscmoo&1917
-TyrProtoss&1844
-UITtest&1880
-WillyT&1791
-XIAOYICOG2019&2336
-Zia bot&1812
-ZNZZBot&1966
+adias&2519
+AILien&2161
+Arrakhammer&1907
+BananaBrain&2121
+Crona&1904
+BetaStar&2032
+CherryPiSSCAIT2017&2035
+Chris Coxe&2307
+CUBOT&1706
+DaQin&2067
+Dragon&2074
+Feint&2005
+Fifou Legend&1677
+Fresh Meat&1958
+Halo&2012
+Hannes Bredberg&1982
+Hao Pan&2056
+insanitybot&1658
+Iron bot&2451
+KillAlll&1643
+Killerbot&2274
+krasi0&2360
+krasi0P&1898
+legacy&1901
+LetaBot&2214
+Locutus&2044
+Lukas Moravec&1838
+MadMixP&1813
+MadMixT&1921
+MadMixZ&1765
+McRave&1954
+McRaveZ&2216
+Microwave&1902
+Monster&2500
+Newbie Zerg&2046
+NiteKatP&1918
+NiteKatT&2109
+NLPRbot&2028
+Prism Cactus&2062
+Proxy&1819
+PurpleWave&2105
+Randomhammer&1696
+Simplicity&1582
+skyFORKnet&2174
+Stardust&2706
+Steamhammer&1696
+StyxZ&1612
+tscmoo&1912
+TyrProtoss&1774
+UITtest&1834
+WillyT&1849
+XIAOYICOG2019&2167
+Zia bot&1928
+ZNZZBot&2179
 Volas&2716
-Bereaver&2000
+Bereaver&2014
+ABCDxyz&1892
+Andrew Smith&2074
+Terminus&2159
+Brainiac&2054
+Boris&1925
+cpac&1995
+CSE&2293
+Dave Churchill&2078
+Delingvery&1916
+DTD Bot&1940
+Ecgberht&1930
+EggBot&1807
+Flash&2016
+Florian Richoux&2062
+ForceBot&2080
+Hopark&1908
+ICELab&1926
+Infested Artosis&1910
+JJJJJ&2041
+Junkbot&2104
+KangarooBot&1928
+KaonBot&1942
+KasoBot&2128
+Marine Hell&2084
+Martin Rooijackers&1945
+Matej Kravjar&1874
+MegaBot2017&2139
+MicRobot&2160
+NuiBot&1931
+Overkill&1945
+Pathos&1956
+Pineapple Cactus&2032
+Pinfel 2&1879
+RedRum&2006
+SAIDA&2061
+Sijia Xu&1925
+Skynet&2241
+Slater&1928
+Soeren Klett&1883
+StarCrusher&1857
+Stone&1866
+StyxZ2&1942
+Sune Rasmussen&1954
+Sungguk Cha&1963
+Tomas Cere&1970
+Tomas Vajda&2087
+Trident&1784
+tscmooz&1762
+tscmoop&1978
+tscmoor&1958
+Velicorandom&2152
+WillBot&1886
+WuliBot&2221
+Xelnaga&1976
+Yuanheng Zhu&1743
+Zealot Hell&1981
+Zerg Hell&2048
+ZurZurZur&2011

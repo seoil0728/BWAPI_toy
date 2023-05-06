@@ -19,3 +19,10 @@ b = random.randrange(len(player_list))
 
 print('{} versus {} !'.format(player_list[a], player_list[b]))
 print('Map is {}'.format(map_list[random.randrange(len(map_list))]))
+
+with open('./1 vs 1 Match.txt', 'a') as f:
+    f.write('{} versus {} !'.format(player_list[a], player_list[b]))
+    f.write('\n')
+    f.write('Map is {}'.format(map_list[random.randrange(len(map_list))]))
+    f.write('\n\n')
+
