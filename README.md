@@ -8,7 +8,17 @@
 ## History
 
 ### 1.0.10 (2023-03-06)
-mmr System Updated.
+mmr System Updated. PSL Under League System updated.   
+PSL에서 Under League 시스템이 업데이트 되었습니다.   
+예선전 하위권 봇들을 가리는 시스템으로 본선에 한 번도 진출하지 못했던 봇은    
+전부 Under League 에 들어가게 됩니다.   
+바뀐 방식은 본선 진출 경력이 있는 봇을 우선적으로 예선전에 채웁니다.   
+남은 자리를 Under League에서 랜덤으로 추출하여 Under League를 예선전과 같은 방식으로 진행합니다. 
+
+mmr 시스템이 업데이트 되었습니다.   
+우선 1 vs 1 매치를 생성할 경우 자동적으로 txt파일로 로그를 남깁니다.   
+mmr 리그에 다양한 봇들이 추가되었습니다.   
+mmr 시스템에 봇 추가 시 이미 있는 봇을 추가하지 못하도록 수정했습니다.
 
 ### 1.0.9b (2023-01-28)
 RPArunbot을 통해 자동으로 열 수 있는 exe, jar 봇들이 추가되었습니다.
@@ -105,6 +115,7 @@ mmr 폴더 생성. view_mmr_order.py 실행 시 내보내는 파일이 저장됨
 + load_bot_vs_bot.py
   - 'mmr.txt' 파일을 참조하여 봇들을 불러와 랜덤으로 매칭합니다.
   - 매칭된 두 봇의 이름과 mmr을 출력해주며 대전 맵도 랜덤으로 지정하여 출력합니다.
+  - 매칭 결과는 '1 vs 1 Match.txt' 파일에 기록합니다.
 
 
 + mmr.py
@@ -112,6 +123,7 @@ mmr 폴더 생성. view_mmr_order.py 실행 시 내보내는 파일이 저장됨
   - 최초 추가된 봇의 mmr은 2000입니다.
   - 봇 이름에 공백문이 포함되어 있는 경우 충돌하던 버그를 수정하였습니다.
   - 추가적으로 그간 충돌을 피하기 위해 공백문을 제거한 봇 이름들을 원래대로 되돌렸습니다.
+  - 이미 존재하는 봇을 추가하지 않습니다.
 
 
 + update_mmr.py
@@ -164,6 +176,8 @@ mmr 폴더 생성. view_mmr_order.py 실행 시 내보내는 파일이 저장됨
   - psl_map_adviser.py 파일을 임포트하여 해당 기능을 사용합니다.
   - 5 : PSL에 현재 프로게이머 타이틀을 획득한 선수를 출력합니다.
   - psl_check_pro_title.py 파일을 임포트하여 해당 기능을 사용합니다.
+  - 6 : Under League를 진행할 수 있도록 봇을 추출해줍니다.
+  - 예선전에 필요한 숫자만큼 계산해둬야 합니다.
 
 
 + psl_round_maker.py
@@ -187,6 +201,12 @@ mmr 폴더 생성. view_mmr_order.py 실행 시 내보내는 파일이 저장됨
 + psl_map_adviser.py
   - psl에 사용될 16강부터 결승까지의 맵을 추첨하는 파일입니다.
   - 아직은 단순 콘솔 프린트 기능만 지원합니다.
+
+
++ psl_under_league.py
+  - psl에 사용될 Under League 출전 봇들을 랜덤으로 추출하기 위한 파일입니다.
+  - 예선전에 출전 가능한 숫자를 미리 파악해둬야 합니다.
+
 
 
 ### RPA_system
