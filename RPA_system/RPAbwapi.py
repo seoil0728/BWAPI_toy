@@ -16,7 +16,7 @@ def find_directory():
     detected = []
     name = input('Type bot name: ')
     for i in os.listdir():
-        if name in i:
+        if name.lower() in i.lower():
             detected.append(i)
 
     return detected
