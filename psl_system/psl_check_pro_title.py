@@ -22,6 +22,9 @@ def check_pro():
     progamers[5] = [['Volas', 'Monster', 'Stardust', 'Brainiac', 'adias', 'BananaBrain', 'Dragon', 'krasi0'],
                     ['Killerbot', 'Halo', 'ZNZZBot', 'Iron bot', 'WillyT', 'NiteKatT', 'skyFORKnet', 'BetaStar']]
 
+    progamers[6] = [['krasi0', 'adias', 'Monster', 'Brainiac', 'BananaBrain', 'Chris Coxe', 'BetaStar', 'Bereaver'],
+                    ['WillyT', 'XIAOYICOG2019', 'Stardust', 'Hao Pan', 'Zerg Hell', 'LetaBot', 'McRave', 'CSE']]
+
     checker1 = progamers[len(progamers)][0]
     checker2 = progamers[len(progamers) - 1][0]
     checker3 = progamers[len(progamers) - 2][0]
