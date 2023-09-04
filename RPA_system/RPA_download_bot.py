@@ -10,6 +10,19 @@ def get_date():
     return date.strftime('%Y-%m-%d %H:%M:%S')
 
 
+def get_date_cut():
+    date = datetime.datetime.now()
+    temp = date.strftime('(%Y_%m_%d) %H:%M:%S')
+
+    return temp[:12]
+
+
+def get_bot_date_cut(bot):
+    temp = str(bot['update'][:10])
+    temp.replace('-', '_')
+    return '(' + temp + ')'
+
+
 def get_bot_binary_by_name(bot_name):
     responce = requests.get('https://sscaitournament.com/api/bots.php?bot={}'.format(bot_name))
 
@@ -57,6 +70,7 @@ def download_file(url, file_name):
 
 
 def main():
+    print(get_date_cut())
     ch = input('If this is first time, Type 1 : ')
     if ch == '1':
         initialize_log()
@@ -65,7 +79,7 @@ def main():
     bots = get_bot_binary_all()
     for i in bots:
         if i['update'] > updated:
-            download_file(i['botBinary'], 'bot_download/{}.zip'.format(i['name']))
+            download_file(i['botBinary'], 'bot_download/{}_{}.zip'.format(i['name'], get_bot_date_cut(i)))
             print('updated {} file.'.format(i['name']))
 
     print()

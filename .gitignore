@@ -4,3 +4,7 @@ __pycache__/
 .idea/
 RPA_system/chaospath.tmp
 .vscode/
+build/
+dist/
+*.spec
+RPA_system/bot_download/
